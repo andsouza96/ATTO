@@ -1,0 +1,37 @@
+<phyphox xmlns="http://phyphox.org/xml" xmlns:editor="http://phyphox.org/editor/xml" version="1.7" editor:version="1.0" locale="">
+    <title>ATTO</title>
+    <category>PocketLab One</category>
+    <description>Simple readings from the accelerometer of a PocketLab One.</description>
+    <data-containers>
+        <container size="1" static="false">output</container>
+        <container size="1000" static="false">out</container>
+    </data-containers>
+    <input>
+        <bluetooth editor:uuid="168" editor:posx="27" editor:posy="106"    mode="notification" rate="10" subscribeOnStart="false">
+            <config char="0000FFE1-0000-1000-8000-00805F9B34FB" conversion="string">01</config>
+            <output char="0000FFE1-0000-1000-8000-00805F9B34FB" conversion="string" offset="0">output</output>
+        </bluetooth>
+    </input>
+    <output>
+    </output>
+    <analysis sleep="0"  onUserInput="false">
+        <timer editor:uuid="280" editor:posx="56.921875" editor:posy="295.984375">
+            <output as="out">out</output>
+        </timer>
+    </analysis>
+    <views>
+        <view label="Accelerometer">
+            <value editor:uuid="261" editor:posx="343.0625" editor:posy="98.9375" label="Dado Recebido:" size="1" precision="2" scientific="false"  factor="1" >
+                <input>output</input>
+            </value>
+            <graph editor:uuid="228" editor:posx="338.625" editor:posy="229.90625" label="experimento atto" aspectRatio="2.5" style="lines" lineWidth="1" color="ff0000" partialUpdate="true" history="1" labelX="t" labelY="a" labelZ="" unitX="s" unitY="m/s²" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
+                <input axis="x">out</input>
+                <input axis="y">output</input>
+            </graph>
+        </view>
+    </views>
+    <export>
+        <set name="Accelerometer">
+        </set>
+    </export>
+</phyphox>
