@@ -150,7 +150,9 @@ Acesse a pasta "toolbox"
 
 Abra inicialmente o arquivo "toolbox_none.xml" e no parametro id insira a palavra 'Atto'
 
-><parametre id="defaultCategories">CAT_LOGIC,CAT_LOOPS,CAT_MATH,CAT_ARRAY,CAT_TEXT,CAT_VARIABLES,CAT_FUNCTIONS,Atto</parametre>
+```javascript
+<parametre id="defaultCategories">CAT_LOGIC,CAT_LOOPS,CAT_MATH,CAT_ARRAY,CAT_TEXT,CAT_VARIABLES,CAT_FUNCTIONS,Atto</parametre>
+```
 
 no final do código crie uma categoria com o mesmo nome mencionado acima. Essa categoria irá criar um espaço no programa para inserir os blocos criados anteriormente. Segue o exemplo:
 
@@ -186,7 +188,7 @@ Um exemplo da aplicação deste código acima, pode ser visto na Figura abaixo:
 ![Github Blocos Visiveis](README_Imagem.png)
 
 
-E por fim, quando abrir o programa "blocklyArduino_AIO" na pasta principal, o código realiza uma compilação automaticamente e os blocos irão aparecer conforme a categoria escolhida.
+E por fim, quando abrir o programa "blocklyArduino_AIO" na pasta principal, o código realiza uma compilação automatica e os blocos irão aparecer conforme foi criado e categorizados.
 
 
 
