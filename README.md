@@ -180,6 +180,14 @@ Aconselho que todos os blocos sejam criados inicialmente neste arquivo "toolbox_
 
 e todos os outros arquivos que queira que os blocos fiquem visíveis.
 
+Um exemplo da aplicação deste código acima, pode ser visto na Figura abaixo:
+
+
+![Github Blocos Visiveis](README_Imagem.png)
+
+
+E por fim, quando abrir o programa "blocklyArduino_AIO" na pasta principal, o código realiza uma compilação automaticamente e os blocos irão aparecer conforme a categoria escolhida.
+
 
 
 
