@@ -188,7 +188,7 @@ Um exemplo da aplicação deste código acima, pode ser visto na Figura abaixo:
 ![Github Blocos Visiveis](README_Imagem.png)
 
 
-E por fim, quando abrir o programa "blocklyArduino_AIO" na pasta principal, o código realiza uma compilação automatica e os blocos irão aparecer conforme foi criado e categorizados.
+E por fim, quando abrir o programa "blocklyArduino_AIO" na pasta principal, o código realiza uma compilação automatica e os blocos irão aparecer conforme foram criados e categorizados.
 
 
 
